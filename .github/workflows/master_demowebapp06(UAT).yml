@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'demowebapp06'
         slot-name: 'UAT'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_bd3a3d11aa304d39be6644568b85ccac }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a57412a73e4e4f238e0b32e25d16f862 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
